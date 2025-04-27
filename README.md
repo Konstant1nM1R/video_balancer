@@ -1,21 +1,3 @@
-# Video Traffic Balancer
-
-A simple video traffic balancer service that redirects video requests either to origin servers or CDN based on configurable rules.
-
-## Features
-
-- Configurable CDN:Origin server ratio
-- REST API for configuration management
-- PostgreSQL for configuration storage
-- FastAPI for high-performance request handling
-- 301 redirects for video requests
-
-## Requirements
-
-- Python 3.9+
-- PostgreSQL
-- Virtual environment (recommended)
-
 ## Setup
 
 1. Create and activate a virtual environment:
